@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+
+.jumbotron {
+height: 20em;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+}
+
+h1 {
+    font-size: 10em;
+    color: rgb(153, 107, 47);
+    text-shadow: 2px 2px #050505;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+.jumbotron h2 {
+    color: antiquewhite;
+    text-shadow: 2px 2px #050505;
+}
+
+h2 {
+    color: brown;
+}
