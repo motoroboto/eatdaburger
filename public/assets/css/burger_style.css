@@ -6,6 +6,7 @@ body {
 height: 20em;
   background-image: url("../img/header.jpg");
   background-size: cover;
+  border-radius: 0px;
 }
 
 h1 {
@@ -23,4 +24,17 @@ h1 {
 
 h2 {
     color: brown;
+}
+
+.row {
+    padding: 10px;
+}
+
+.column {
+    margin-right: 8vw;
+}
+
+.add-burger {
+    align-items: center;
+    margin-left: 20vw;
 }
