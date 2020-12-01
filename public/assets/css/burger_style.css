@@ -38,3 +38,7 @@ h2 {
     align-items: center;
     margin-left: 20vw;
 }
+
+button {
+    border-radius: 20px;
+}
