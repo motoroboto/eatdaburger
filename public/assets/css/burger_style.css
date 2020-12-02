@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: #f4ca90;
 }
 
 .jumbotron {
@@ -7,23 +7,22 @@ height: 20em;
   background-image: url("../img/header.jpg");
   background-size: cover;
   border-radius: 0px;
+  box-shadow: 0 4px 8px #af8448;
 }
 
 h1 {
     font-size: 10em;
-    color: rgb(153, 107, 47);
-    text-shadow: 2px 2px #050505;
-    outline-width: 2px;
-    outline-color: black;
+    color: #68563d;
+    text-shadow: 2px 2px black;
 }
 
 .jumbotron h2 {
-    color: antiquewhite;
-    text-shadow: 2px 2px #050505;
+    color: #e2f490;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
-    color: brown;
+    color:#5b4b36;
 }
 
 .row {
@@ -40,7 +39,7 @@ h2 {
 }
 
 button {
-	box-shadow: 0px 10px 7px -7px #474247;
+	/* box-shadow: 0px 10px 7px -7px #474247; */
 	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
 	background-color:#f9f9f9;
 	border-radius:8px;
@@ -57,4 +56,8 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+.submit {
+    padding: 1px 57px;
 }
